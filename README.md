@@ -1,6 +1,6 @@
 # cpu-stress-test
 
-Stress your cpu with this particle animation on canvas.
+Stress your CPU with this particle animation on canvas.
 
 ===========================================================
 
