@@ -10,6 +10,8 @@ var gravity = 0.95;
 var partNumber = 10;
 var allParts = [];
 
+// Animating function
+
 function animate() {
   // Reseting
   c.fillStyle = 'black';
@@ -35,7 +37,7 @@ function animate() {
   }
 
 Part.prototype.draw = function () {
-  c.fillStyle = 'aqua';
+  c.fillStyle = 'cadetblue';
   c.beginPath();
   this.x += this.speedX;
   this.y += this.speedY;
