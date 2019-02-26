@@ -1,3 +1,5 @@
+// Declaring all variables
+
 var canvas = document.getElementsByTagName('canvas')[0];
 var c = canvas.getContext('2d');
 var cw = 0;
@@ -9,7 +11,7 @@ var partNumber = 10;
 var allParts = [];
 
 function animate() {
-  //reset
+  // Reseting
   c.fillStyle = 'black';
   c.fillRect(0, 0, canvas.width, canvas.height);
   for (var i = 0; i < partNumber; i++) {
